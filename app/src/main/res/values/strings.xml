@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">smartAttendanceSystem</string>
+
+    <!--activity_login strings-->
+    <string name="Username">Username</string>
+    <string name="LoginPassword">Password</string>
+    <string name="Login">Log in</string>
+    <string name="Register">Sign up</string>
+    <string name="InvalidLoginDetails">Invalid User Credentials Entered</string>
+
+    <string name="NFCForumLogo">NFC Forum Logo</string>
+    <string name="RegisterLink">Register Here</string>
+
+    <!--activity_register strings-->
+    <string name="ID">Enter User ID</string>
+    <string name="Login_ID">Login ID</string>
+    <string name="City_Email">City Email</string>
+    <string name="Register_Password">Register Password</string>
+    <string name="Fullname">Fullname</string>
+    <string name="Degree">Degree</string>
+    <string name="Module">Module</string>
+    <string name="Room">Room</string>
+    <string name="Submit">Submit</string>
+    <string name="Welcome">Welcome _____ _____ to your account.
+        This account will be used to login and register yourself
+        for University Attendance Record in the future!(hopefully)
+
+        First and foremost, please ensure your NFC is enabled from your device settings.
+        Next, go and tap your SmartPhone to the appropriate NFC tag nearby.
+        Once done, you will be registered for University Attendance.
+    </string>
+
+
+    <string name="Students">SearchStudents</string>
+
+    <!--navigation bar -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="add_student">Add Student</string>
+    <string name="student_s_full_name">Student\'s full name</string>
+    <string name="student_id">Student ID</string>
+    <string name="generate_student_id">Generate Student ID</string>
+    <string name="save_to_database">Save to Database</string>
+    <string name="textview">TextView</string>
+    <string name="fill_in_the_fields_password_contain_at_least_a_capital_letter_a_number_and_password_must_be_greater_than_6_characters">
+        Fill in the fields. Password must contain, a capital letter, a number and must be greater than 6 characters.
+    </string>
+    <string name="search_student">Search Student</string>
+    <string name="button">Button</string>
+    <string name="the_following_students_are_able_to_create_an_account_using_the_student_id_created_by_the_lecturer">The following students are able to create an Account using the Student ID created by the Lecturer.</string>
+    <string name="hello_world">Hello World</string>
+    <string name="save">save</string>
+    <string name="generate_lecturer_id">Generate Lecturer ID</string>
+    <string name="lecturer_password">Lecturer password</string>
+    <string name="lecturer_s_full_name">Lecturer\'s Full Name</string>
+    <string name="add_lecturer">Add Lecturer</string>
+    <string name="the_button_below_creates_a_lecturer_account_where_the_lecturer_account_with_the_id_so_only_by_the_admin_can_lecturer_accounts_be_string_the_following_students_are_able_to_create_an_account_using_the_student_id_created_by_the_lecturer">
+        Click this button below to create a lecturer User with the ID, with this ID can only users register
+        for lecture account
+    </string>
+    <string name="refresh_registry">Refresh Registry</string>
+    <string name="enrol_new_student_to_star">Enrol New Student to STAR</string>
+    <string name="tap_your_smartphone_to_the_nfc">Tap your Smartphone to the NFC tag</string>
+    <string name="blah">blah</string>
+    <string name="saveFile">Save</string>
+
+
+</resources>

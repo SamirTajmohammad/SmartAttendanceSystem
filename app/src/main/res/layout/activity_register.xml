@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sammay.loginactivity.RegisterAccount">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="346dp"
+        android:layout_height="509dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="280dp"
+            android:layout_height="58dp"
+            android:layout_above="@+id/editTextID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            android:paddingTop="5dp"
+            android:text="@string/fill_in_the_fields_password_contain_at_least_a_capital_letter_a_number_and_password_must_be_greater_than_6_characters"
+            app:layout_constraintBaseline_toBaselineOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextEmail"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/ID"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextFullname"
+            android:layout_alignLeft="@+id/editTextID"
+            android:layout_alignStart="@+id/editTextID"
+            android:ems="10"
+            android:hint="@string/City_Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextFullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextPassword"
+            android:layout_alignLeft="@+id/editTextEmail"
+            android:layout_alignStart="@+id/editTextEmail"
+            android:ems="10"
+            android:hint="@string/Fullname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonSubmit"
+            android:layout_alignLeft="@+id/editTextFullname"
+            android:layout_alignStart="@+id/editTextFullname"
+            android:layout_marginBottom="23dp"
+            android:ems="10"
+            android:hint="@string/Register_Password"
+            android:inputType="textVisiblePassword" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="59dp"
+            android:text="@string/Submit" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
